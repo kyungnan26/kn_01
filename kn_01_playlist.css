@@ -4,7 +4,7 @@ ul{list-style: none;} /* 리스트 앞에 .과 같은 거 제거*/
 
 header{
     width: 700px; 
-    height: 200px;
+    height: 350px;
     background-color: azure;
 
 /* .html에서 header 안에 logo, top_menu,nav가 있음*/
@@ -18,41 +18,12 @@ header{
     position: absolute;
     /*header의 position: absolute를 주면 웹 브라우저 좌측 상단(0,0)을 기준을 위치 지정*/
     top: 30px;
-    left: 10px;
-
-}
-
-/* 제목 영역 안 오른쪽 상단에 top_menu 배치*/
-#top_menu{
-    position: absolute;
-    top: 20px;
     right: 10px;
-    color: black;
+
 }
-
-/*top_menu a의 글씨 색*/
-#top_menu a{color: black;}
-
-/* 헤더 영역 안에 네비게이션 메뉴 배치*/
-nav{
-    position: absolute;
-    bottom: 10px;
-    left: 220px;
-    font-size: 16px;
-}
-
-nav li{
-    display: inline; /*가로로*/
-    margin-left: 30px;
-}
-
-nav li a{color: black;}
 
 #content li{
     display: inline; /*가로로*/
     margin-left: 50px;
 }
-
-/*전체 페이지 가운데로 오도록 배치*/
-#page{width: 820px; margin: 0px auto;}
 
